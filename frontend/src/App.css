@@ -1,0 +1,99 @@
+.navbar-custom {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.page-bg {
+  background: linear-gradient(180deg, #f8faff 0%, #f5f7fb 100%);
+  min-height: calc(100vh - 72px);
+}
+
+.hero-section {
+  padding-top: 2rem;
+}
+
+.eyebrow {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #4f46e5;
+  font-size: 0.72rem;
+}
+
+.stat-box {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 16px;
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.spotlight-card {
+  border-radius: 22px;
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.spotlight-card .card-topline,
+.spotlight-card h3,
+.spotlight-card p,
+.spotlight-card li {
+  color: #fff;
+}
+
+.spotlight-card .card-topline {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  opacity: 0.8;
+}
+
+.feature-list {
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.feature-list li {
+  position: relative;
+  padding-left: 1.2rem;
+  opacity: 0.9;
+}
+
+.feature-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #60a5fa;
+}
+
+.opportunity-card {
+  border-radius: 18px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.opportunity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(15, 23, 42, 0.08) !important;
+}
+
+.info-panel {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 20px;
+  padding: 1.5rem;
+}
